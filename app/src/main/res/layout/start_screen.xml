@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="#263238">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="88dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:text="VS Human"
+            android:onClick="starter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/human" />
+
+        <Button
+            android:text="VS AI"
+            android:onClick="starter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ai" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/embed"
+        android:layout_above="@+id/imageView2"
+        android:id="@+id/imageView3" />
+
+    <ImageView
+        android:layout_height="300dp"
+        android:src="@drawable/logo"
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
