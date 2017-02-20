@@ -5,7 +5,7 @@ A silly app made for a Hackathon at Southeast Missouri State University in 2016.
 ![](http://i.imgur.com/ScywMeO.png)
 
 ## Game Board
-![](http://imgur.com/EqSleuI)
+![](http://i.imgur.com/EqSleuI.png)
 
 ## Gameover Screen
-![](http://imgur.com/Wjn3imR)
+![](http://i.imgur.com/Wjn3imR.png)
